@@ -1,0 +1,205 @@
+@font-face{
+    src: url(fonts/dahlia-medium.otf);
+    font-family: Dahila;
+}
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFF8E7;
+}
+
+/*HEADER SECTION*/
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0.5%;
+    padding-left: 2%;
+    font-family: dahila;
+    color: green;
+    width: 100%;
+}
+.none{
+    text-decoration: none;
+}
+a:hover{
+    transform: translateY(-5px);
+}
+#menuIcon{
+    flex-basis: 35%;
+    text-align: start;
+}
+#menuLink{
+    font-size: 3rem;
+    color: green;
+}
+#glowAndShine{
+    flex-basis: 35%;
+    text-align: start;
+    font-size: xx-large;
+    font: Dahila;
+}
+#headerIcons{
+    flex-basis: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+#bagIcon, #logInIcon{
+    color: green;
+    font-size: 2rem;
+}
+
+/*FIRST BODY SECTION*/
+#firstSection{
+    font-family: Dahila;
+    margin-top: 1%;
+    width: 100%;
+}
+#serumDiv{
+    text-align: center;
+    font-size: 4rem;
+    color: green;
+    padding-bottom: 0.5%;
+}
+#shampooDiv, #shampooImage{
+    width: 100%;
+}
+
+/*SECOND BODY SECTION*/
+#secondSection{
+    width: 100%;
+    margin-top: 6%;
+}
+#whatsInside{
+    text-align: center;
+    font-family: Dahila;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: green;
+    padding-bottom: 5%;
+}
+.productContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 6%;
+}
+.productImageDiv{
+    flex-basis: 30%;
+    padding-right: 1%;
+}
+.productDescription{
+    flex-basis: 32%;
+}
+#squaleneImage, #gingerImage, #cloveImage, #aniseImage, #riceBranImage{
+    width: 100%;
+    height: 100%;
+}
+.descriptionHeader{
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+.descriptionDetails{
+    font-family: Geneva, Verdana, sans-serif;
+    padding-top: 6%;
+}
+
+/*Top Badge Div*/
+#topBadgeDiv{
+    padding-left: 90%;
+}
+#topBadge{
+    background-color: green;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    text-align: center;
+    font-family: Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 1.7rem;
+}
+
+/*The Model Div*/
+#chiefProductContainer{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-left: 5%;
+}
+#chiefProductDescription{
+    flex-basis: 50%;
+    padding-top: 15%;
+}
+#chiefProductImageDiv{
+    flex-basis: 40%;
+    text-align: end;
+}
+#chiefdescriptionHeader{
+    font-family: Dahila;
+    font-size: 3rem;
+    color: green;
+}
+#chiefDescriptionDetails{
+    padding-top: 4%;
+    font-family: Geneva, Verdana, sans-serif;
+}
+#chiefDescriptionImage{
+    width: 100%;
+    height: 100%;
+}
+
+/*The Prescription Part*/
+#prescription{
+    font-family: Dahila;
+    font-size: 3rem;
+    color: green;
+    text-align: center;
+    margin-top: 5%;
+}
+#prescriptionContainers{
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 3%;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.prescriptions{
+    color: rgb(73, 73, 73);
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border-bottom: 1px solid black;
+    flex-basis: 20%;
+}
+
+/*FOOTER*/
+footer{
+    background-color: white;
+    margin-top: 8%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    color: green;
+    font-family: Dahila;
+}
+#footerGlowAndShine{
+    flex-basis: 60%;
+}
+#footerMenuIcons{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerMenuIcon{
+    color: green;
+}
