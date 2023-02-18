@@ -191,6 +191,7 @@ footer{
     justify-content: space-between;
     color: green;
     font-family: Dahila;
+    width: 100%;
 }
 #footerGlowAndShine{
     flex-basis: 60%;
