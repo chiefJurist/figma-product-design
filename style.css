@@ -178,7 +178,7 @@ a:hover{
     color: rgb(73, 73, 73);
     font-family: Geneva, Verdana, sans-serif;
     font-size: larger;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     flex-basis: 20%;
 }
 
